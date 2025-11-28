@@ -1,0 +1,14 @@
+
+.dashboard-container {
+  min-height: 100vh;
+  background: url('/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 20px;
+}
+
+
+
+body {
+  background: url('/bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
