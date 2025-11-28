@@ -6,7 +6,8 @@ import Products from "./pages/Products";
 import Dashboard from "./pages/Dashboard";
 import Contact from "./pages/Contact";
 import Cart from "./pages/cart";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar.jsx";
+
 
 
 function App() {
