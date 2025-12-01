@@ -1,11 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
+import Navbar from "./components/navbar.jsx";
 import Home from "./pages/home.jsx";
 import Products from "./pages/products.jsx";
 import Dashboard from "./pages/dashboard.jsx";
 import Contact from "./pages/contact.jsx";
 import Cart from "./pages/cart.jsx";
-import Navbar from "./components/navbar.jsx";
 function App() {
   return (
     <CartProvider>
