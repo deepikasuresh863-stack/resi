@@ -1,8 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { CartProvider } from "./context/CartContext";
-
 import Navbar from "./components/Navbar.jsx";
-
 import Home from "./pages/home.jsx";
 import Products from "./pages/products.jsx";
 import Dashboard from "./pages/dashboard.jsx";
