@@ -1,12 +1,12 @@
 import { useCart } from "../context/CartContext";
 import productsData from "../data/products";
 import { Link } from "react-router-dom";
-import "../pages/Dashboard.css";
+import "../pages/dashboard.css";
 
 
 
 
-const Dashboard = () => {
+const dashboard = () => {
   const { cart } = useCart();
 
   const totalRevenue = cart.reduce((sum, item) => sum + item.price, 0);
@@ -77,4 +77,4 @@ const buttonStyle = {
 
 
 
-export default Dashboard;
+export default dashboard;
