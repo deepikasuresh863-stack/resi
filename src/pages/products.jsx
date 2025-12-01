@@ -1,8 +1,8 @@
 import React from "react";
-import "../pages/Products.css";
+import "../pages/products.css";
 import { useCart } from "../context/CartContext";
 
-const Products = () => {
+const products = () => {
   const { addToCart } = useCart();
 
   const products = [
@@ -33,4 +33,4 @@ const Products = () => {
   );
 };
 
-export default Products;
+export default products;
